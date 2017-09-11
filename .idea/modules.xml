@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/1_帧动画/1_帧动画.iml" filepath="$PROJECT_DIR$/1_帧动画/1_帧动画.iml" />
+      <module fileurl="file://$PROJECT_DIR$/2_补间动画/2_补间动画.iml" filepath="$PROJECT_DIR$/2_补间动画/2_补间动画.iml" />
+      <module fileurl="file://$PROJECT_DIR$/3_属性动画/3_属性动画.iml" filepath="$PROJECT_DIR$/3_属性动画/3_属性动画.iml" />
+      <module fileurl="file://$PROJECT_DIR$/4_通知/4_通知.iml" filepath="$PROJECT_DIR$/4_通知/4_通知.iml" />
+      <module fileurl="file://$PROJECT_DIR$/Animation.iml" filepath="$PROJECT_DIR$/Animation.iml" />
+    </modules>
+  </component>
+</project>

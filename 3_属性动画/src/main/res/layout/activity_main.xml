@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools" android:id="@+id/activity_main"
+    android:layout_width="match_parent" android:layout_height="match_parent"
+    tools:context="com.example.anim.MainActivity">
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal">
+        <Button
+            android:onClick="click"
+            android:id="@+id/a"
+            android:text="透明"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <Button
+            android:onClick="click"
+            android:id="@+id/b"
+            android:text="旋转"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <Button
+            android:onClick="click"
+            android:id="@+id/c"
+            android:text="缩放"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <Button
+            android:onClick="click"
+            android:id="@+id/d"
+            android:text="位移"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+
+        <Button
+            android:onClick="click"
+            android:id="@+id/e"
+            android:text="一起"
+            android:textSize="10sp"
+            android:layout_weight="1"
+            android:layout_width="60dp"
+            android:layout_height="60dp" />
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/iv"
+        android:src="@mipmap/ic_launcher"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerInParent="true"/>
+
+</RelativeLayout>
